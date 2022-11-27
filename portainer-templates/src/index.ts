@@ -21,6 +21,9 @@ async function handleRequest(request: any) {
     'https://raw.githubusercontent.com/OliverCullimore/portainer-templates/master/templates.json',
     'https://raw.githubusercontent.com/mediadepot/templates/master/portainer.json',
     'https://raw.githubusercontent.com/portainer/templates/master/templates-2.0.json'
+    'https://raw.githubusercontent.com/donpablonow/awesome-saas/master/Template/portainer-v2.json'
+    'https://raw.githubusercontent.com/ntv-one/portainer/main/template.json'
+                        
   ];
 
   const base = await fetch('https://raw.githubusercontent.com/xneo1/portainer_templates/master/Template/template.json');
